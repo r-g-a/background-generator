@@ -51,4 +51,4 @@ def submit_form():
         write_to_file(data)
         return redirect('/thankyou.html')
     else:
-        return 'something went wrong try again!!'
+        return 'SOMETHING WENT WRONG TRY AGAIN!!'
