@@ -5,7 +5,7 @@ from flask import Flask, render_template, url_for, request, redirect
 app = Flask(__name__)
 
 if __name__=='__main__':
-    http_server = WSGIServer(('', 5000), app)
+    http_server = WSGIServer(('', 500), app)
     http_server.serve_forever()    
 
 print(__name__)  # name is __main__ here
